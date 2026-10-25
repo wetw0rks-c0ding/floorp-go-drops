@@ -1,0 +1,6 @@
+{
+  "version": "0.1.11",
+  "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go/releases/tag/v0.1.11",
+  "downloadUrl": "https://wetw0rks-c0ding.github.io/floorp-go-drops/floorp-go-0.1.11-arm64-v8a-release.apk",
+  "notes": "Autofill support: floorp-go now participates in Android's autofill framework, so Bitwarden and other password managers offer to fill and save credentials on web forms. Settings screen with manual update check. Menu button moved to address bar; downloads button added to bottom bar."
+}
