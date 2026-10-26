@@ -2,5 +2,11 @@
   "version": "0.1.13",
   "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/tag/v0.1.13",
   "downloadUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-arm64-v8a-release.apk",
+  "downloads": {
+    "arm64-v8a": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-arm64-v8a-release.apk",
+    "armeabi-v7a": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-armeabi-v7a-release.apk",
+    "x86_64": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-x86_64-release.apk",
+    "x86": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-x86-release.apk"
+  },
   "notes": "Password autofill works now: tapping a login form offers your password manager's saved credential instead of silence. The app's own address bar was making the framework skip the page when building the autofill structure. Screen-reader typing, dictation and the keyboard are unaffected; granular select/copy/paste in the address bar via screen reader is lost with this workaround until Compose moves past 1.11.4."
 }
