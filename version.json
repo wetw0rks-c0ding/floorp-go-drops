@@ -1,6 +1,6 @@
 {
-  "version": "0.1.11",
-  "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/tag/v0.1.11",
-  "downloadUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.11/floorp-go-0.1.11-arm64-v8a-release.apk",
-  "notes": "Autofill support: floorp-go now participates in Android's autofill framework, so Bitwarden and other password managers offer to fill and save credentials on web forms. Settings screen with manual update check. Menu button moved to address bar; downloads button added to bottom bar."
+  "version": "0.1.12",
+  "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/tag/v0.1.12",
+  "downloadUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.12/floorp-go-0.1.12-arm64-v8a-release.apk",
+  "notes": "Anchored menu over the live page: the website stays visible behind the panel, with no scrim and no white void. Google sign-in no longer crashes the app: GeckoView's passkey support is a Play Services dependency this build does not ship, so WebAuthn is switched off and sign-in pages fall back to a password. The address bar's keyboard now closes when the menu opens."
 }
