@@ -1,6 +1,6 @@
 {
-  "version": "0.1.12",
-  "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/tag/v0.1.12",
-  "downloadUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.12/floorp-go-0.1.12-arm64-v8a-release.apk",
-  "notes": "Anchored menu over the live page: the website stays visible behind the panel, with no scrim and no white void. Google sign-in no longer crashes the app: GeckoView's passkey support is a Play Services dependency this build does not ship, so WebAuthn is switched off and sign-in pages fall back to a password. The address bar's keyboard now closes when the menu opens."
+  "version": "0.1.13",
+  "releaseUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/tag/v0.1.13",
+  "downloadUrl": "https://github.com/wetw0rks-c0ding/floorp-go-drops/releases/download/v0.1.13/floorp-go-0.1.13-arm64-v8a-release.apk",
+  "notes": "Password autofill works now: tapping a login form offers your password manager's saved credential instead of silence. The app's own address bar was making the framework skip the page when building the autofill structure. Screen-reader typing, dictation and the keyboard are unaffected; granular select/copy/paste in the address bar via screen reader is lost with this workaround until Compose moves past 1.11.4."
 }
